@@ -1,0 +1,48 @@
+2025-06-26 16:02:40,623 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000024024876A50>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session
+2025-06-26 16:02:42,667 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000240249A0190>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session
+2025-06-26 16:02:44,750 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000240249A0410>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session
+2025-06-26 16:23:35,592 - INFO - Connected to device successfully!
+2025-06-26 16:23:35,883 - INFO - Application launched!
+2025-06-26 16:23:35,883 - INFO - Blackghost: v3.0.0
+2025-06-26 16:23:41,472 - ERROR - Error in initializing the scanning button: Message: 
+Stacktrace:
+NoSuchElementError: An element could not be located on the page using the given search parameters.
+    at AndroidUiautomator2Driver.findElOrEls (C:\Users\bagal\.appium\node_modules\appium-uiautomator2-driver\node_modules\appium-android-driver\lib\commands\find.ts:86:11)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at AndroidUiautomator2Driver.findElOrElsWithProcessing (C:\Users\bagal\.appium\node_modules\appium-uiautomator2-driver\node_modules\@appium\base-driver\lib\basedriver\commands\find.ts:60:12)
+    at AndroidUiautomator2Driver.findElement (C:\Users\bagal\.appium\node_modules\appium-uiautomator2-driver\node_modules\@appium\base-driver\lib\basedriver\commands\find.ts:75:12)
+2025-06-26 16:23:41,478 - INFO - --------------------------------------------------------------------------------------------
+2025-06-26 16:24:04,396 - INFO - Connected to device successfully!
+2025-06-26 16:24:04,580 - INFO - Application launched!
+2025-06-26 16:24:04,580 - INFO - Blackghost: v3.0.0
+2025-06-26 16:24:09,927 - ERROR - Error in initializing the scanning button: Message: 
+Stacktrace:
+NoSuchElementError: An element could not be located on the page using the given search parameters.
+    at AndroidUiautomator2Driver.findElOrEls (C:\Users\bagal\.appium\node_modules\appium-uiautomator2-driver\node_modules\appium-android-driver\lib\commands\find.ts:86:11)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at AndroidUiautomator2Driver.findElOrElsWithProcessing (C:\Users\bagal\.appium\node_modules\appium-uiautomator2-driver\node_modules\@appium\base-driver\lib\basedriver\commands\find.ts:60:12)
+    at AndroidUiautomator2Driver.findElement (C:\Users\bagal\.appium\node_modules\appium-uiautomator2-driver\node_modules\@appium\base-driver\lib\basedriver\commands\find.ts:75:12)
+2025-06-26 16:24:09,928 - INFO - --------------------------------------------------------------------------------------------
+2025-06-26 16:24:41,066 - INFO - Connected to device successfully!
+2025-06-26 16:24:41,321 - INFO - Application launched!
+2025-06-26 16:24:41,327 - INFO - Blackghost: v3.0.0
+2025-06-26 16:24:43,788 - INFO - Scanning button available and pressed......
+2025-06-26 16:24:43,790 - INFO - Elements initialized successfully and Pressed!
+2025-06-26 16:24:46,201 - INFO - All Elements in the scanning mode are initialized!
+2025-06-26 16:24:48,382 - INFO - Search bar element found!
+2025-06-26 16:24:50,995 - INFO - Searching for devices with 'eq_C697'...
+2025-06-26 16:24:51,002 - INFO - Scanning attempt 1...
+2025-06-26 16:24:51,938 - INFO - Refreshed Scanning!
+2025-06-26 16:24:55,175 - WARNING - No devices found.
+2025-06-26 16:24:55,181 - INFO - Extracted Serial IDs: []
+2025-06-26 16:24:55,182 - INFO - Scanning attempt 2...
+2025-06-26 16:24:55,440 - INFO - Refreshed Scanning!
+2025-06-26 16:24:58,727 - WARNING - No devices found.
+2025-06-26 16:24:58,730 - INFO - Extracted Serial IDs: []
+2025-06-26 16:24:58,731 - INFO - Scanning attempt 3...
+2025-06-26 16:24:59,197 - INFO - Refreshed Scanning!
+2025-06-26 16:25:02,476 - WARNING - No devices found.
+2025-06-26 16:25:02,477 - INFO - Extracted Serial IDs: []
+2025-06-26 16:25:02,477 - ERROR - No devices found after 3 attempts.
+2025-06-26 16:25:02,478 - ERROR - Error in Connecting with the device: Element '//android.widget.TextView[@resource-id='com.app.equivital:id/tvMsg']' not found in defined lists.
+2025-06-26 16:25:02,478 - INFO - --------------------------------------------------------------------------------------------
