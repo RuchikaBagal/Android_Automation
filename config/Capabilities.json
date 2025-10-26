@@ -1,0 +1,13 @@
+{
+  "platformName": "Android",
+  "deviceName": "Galaxy S24 Ultra",
+  "udid": "RZCY71GTHFR",
+  "platformVersion": "15",
+  "automationName": "UiAutomator2",
+  "appPackage": "com.makemytrip",
+  "appWaitActivity": "*",
+  "noReset": "true",
+  "fullReset": "false",
+  "autoGrantPermissions": "true",
+  "newCommandTimeout": "300"
+}
